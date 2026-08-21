@@ -1,4 +1,4 @@
-# STP 221 PRACTICAL TEST -- Online Exam Portal
+# STP PRACTICAL TEST -- Online Exam Portal
 
 An auto-generated, self-contained online exam portal built with
 [Streamlit](https://streamlit.io). Students log in, wait (if needed) for
@@ -27,12 +27,12 @@ internet API calls** once it's running.
 
 | | |
 |---|---|
-| **Course** | STP 221 PRACTICAL TEST |
-| **Questions** | 30 (3 options each) |
-| **Students** | 20 across 1 batch(es), max 40 per batch |
+| **Course** | STP PRACTICAL TEST |
+| **Questions** | 20 (4 options each) |
+| **Students** | 30 across 1 batch(es), max 40 per batch |
 | **Test date** | 2026-08-21 |
 | **Duration** | 5 minutes per student |
-| **Generated** | 2026-08-21 15:23 from `STP 222 TEST QUESTION.docx` |
+| **Generated** | 2026-08-21 18:56 from `STP 222 TEST QUESTION.docx` |
 | **Question source** | AI-drafted with gpt-oss:20b, reviewed/edited by the instructor before export |
 
 ## Features
@@ -89,7 +89,7 @@ Open the local URL Streamlit prints (usually http://localhost:8501).
 
 | Batch | Capacity | Window |
 |---|---|---|
-| Batch 1 | 20 | 15:15 - 15:30 |
+| Batch 1 | 30 | 20:30 - 20:55 |
 
 *(All times are in the `Africa/Lagos` timezone -- see [Configuration](#configuration) to change it.)*
 
