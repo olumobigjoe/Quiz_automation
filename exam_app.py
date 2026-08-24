@@ -67,12 +67,16 @@ QUESTIONS_PER_STUDENT = len(QUESTION_BANK)
 st.markdown(
     """
     <style>
-    .block-container {max-width: 1200px; padding-top: 1.5rem; padding-bottom: 2rem;}
-    .main-title {text-align:center; font-size:34px; font-weight:800; margin-bottom:2px;}
-    .main-subtitle {text-align:center; font-size:16px; margin-bottom:20px; opacity:0.8;}
+    .block-container {max-width: 1200px; padding-top: 3.5rem; padding-bottom: 2rem;}
+    .main-title {text-align:center; font-size:34px; font-weight:800; line-height:1.25; margin-top:0.5rem; margin-bottom:4px; padding-top:0.25rem;}
+    .main-subtitle {text-align:center; font-size:16px; line-height:1.4; margin-bottom:20px; opacity:0.8;}
     .timer-box {text-align:center; font-size:30px; font-weight:800; padding:10px; margin-bottom:8px;}
     .login-info {padding:14px 16px; border-radius:8px; margin-bottom:18px; background:#eef6ff;}
     .footer-text {text-align:center; color:#6b7280; font-size:12px; margin-top:25px;}
+    @media (max-width: 768px) {
+        .block-container {padding-top: 2.5rem;}
+        .main-title {font-size:28px; line-height:1.3;}
+    }
     </style>
     """,
     unsafe_allow_html=True,
